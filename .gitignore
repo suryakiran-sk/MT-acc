@@ -1,0 +1,9 @@
+.idea/*
+node_modules/*
+.env*
+!.env.example
+.vscode/*
+public/swagger.json
+package-lock.json
+config/config.json
+public/uploads

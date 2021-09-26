@@ -1,0 +1,32 @@
+{
+  "name": "mt-accubits",
+  "version": "1.0.0",
+  "description": "mt",
+  "main": "app.js",
+  "scripts": {
+    "start": " node ./bin/www",
+    "dev": "nodemon --ignore 'public/*' ./bin/www"
+  },
+  "author": "surya",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "dotenv-flow": "^3.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-xml-bodyparser": "^0.3.0",
+    "fast-csv": "^4.3.6",
+    "http-errors": "^1.8.0",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.5",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
